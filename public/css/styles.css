@@ -1,0 +1,28 @@
+.header_nav {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+.header_nav li {
+  margin-right: 30px;
+}
+/* エラーメッセージ用のスタイル */
+.error {
+  color: red;
+}
+/* 成功メッセージ用のスタイル */
+.success {
+  color: green;
+}
+/* 削除ボタン用のスタイル */
+.delete {
+  display: inline;
+}
+
+/*お気に入りのボタン*/
+.like_button {
+  cursor: pointer;
+}
+.like {
+  display: inline;
+}
